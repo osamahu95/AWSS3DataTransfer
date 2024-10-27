@@ -2,8 +2,8 @@ from dotenv import load_dotenv
 import os
 
 from S3Credential import S3Credential
-from s3transfer_aws import transfer_objects
-
+# from s3transfer_aws import transfer_objects
+from s3transfer_difference import transfer_objects
 if __name__ == "__main__":
     load_dotenv()
 
